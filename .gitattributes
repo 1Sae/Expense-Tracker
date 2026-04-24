@@ -1,5 +1,13 @@
-ios/** linguist-vendored
 android/** linguist-vendored
+ios/** linguist-vendored
 macos/** linguist-vendored
 windows/** linguist-vendored
 linux/** linguist-vendored
+web/** linguist-vendored
+
+# ignore build & tool files
+build/** linguist-vendored
+.dart_tool/** linguist-vendored
+
+# force Dart detection
+*.dart linguist-detectable=true
