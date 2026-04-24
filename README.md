@@ -9,7 +9,7 @@ The app allows users to quickly record spending with a title, amount, and date, 
 * Add new expenses using a bottom sheet form
 * Select dates with an integrated date picker
 * View all expenses in a scrollable list
-* Delete expenses بسهولة and update totals instantly
+* Delete expenses and update totals instantly
 * Real-time calculation of total spending
 * Simple and beginner-friendly architecture
 
@@ -74,11 +74,11 @@ flutter run
 
 ## Contributing
 
-Contributions and suggestions are welcome.
+Contributions, issues, and feature suggestions are welcome.
 
 1. Fork the repository
 2. Create a feature branch
-3. Commit your changes
+3. Make your changes
 4. Open a pull request
 
 ## License
