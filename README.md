@@ -1,16 +1,86 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+A clean and intuitive Flutter application for tracking daily expenses and improving personal financial awareness.
+
+The app allows users to quickly record spending with a title, amount, and date, and instantly view all expenses along with an automatically updated total.
+
+## Features
+
+* Add new expenses using a bottom sheet form
+* Select dates with an integrated date picker
+* View all expenses in a scrollable list
+* Delete expenses بسهولة and update totals instantly
+* Real-time calculation of total spending
+* Simple and beginner-friendly architecture
+
+## Tech Stack
+
+* Flutter (UI framework)
+* Dart (programming language)
+* Material Design (UI components)
+
+## App Flow
+
+1. Tap the `+` floating action button
+2. Enter title and amount, then choose a date
+3. Submit the form to add the expense
+4. The expense appears instantly in the list and updates the total
+5. Tap the delete icon to remove an expense
+
+## Project Structure
+
+```text
+lib/
+  main.dart                 # App entry point
+  models/
+    expense.dart            # Expense data model
+  screens/
+    home_screen.dart        # Main screen (total + list)
+  widgets/
+    add_expense.dart        # Bottom sheet form
+    expense_item.dart       # Expense list item
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK
+* Dart SDK (included with Flutter)
+* Android Studio / VS Code
+* Emulator or physical device
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd expense_tracker
+flutter pub get
+flutter run
+```
+
+## Notes
+
+* Data is currently stored in memory (no persistence yet)
+* Restarting the app will clear all expenses
+
+## Future Improvements
+
+* Local database integration (Hive / SQLite)
+* Expense categories and filtering
+* Analytics dashboard with charts
+* Edit/update expense entries
+* Budget planning features
+
+## Contributing
+
+Contributions and suggestions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
